@@ -1,5 +1,6 @@
 var path = require('path');
-var HtmlWebPackPlugin = require("html-webpack-plugin");
+// var webpack=require('webpack');
+// var HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
     //项目入口
     entry: "./src/main.ts",
@@ -35,5 +36,9 @@ module.exports = {
         //     {
         //         title: "threejs_practise"
         //     }),
+        // new webpack.ProvidePlugin({
+        //     'THREE': require.resolve('three')
+        //   }),
     ]
+
 }
